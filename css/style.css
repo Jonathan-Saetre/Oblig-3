@@ -1,0 +1,192 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+nav, section, article, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+
+nav section li {
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none; 
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section a {
+    display: flex;
+    justify-content: space-between;
+}
+
+section a img {
+    margin: 10px; 
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; 
+    background-color: white; 
+}
+
+nav, section, article, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+footer{    
+    background-color: #333;
+    color: white;
+}
+nav section li {
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none; 
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section a {
+    display: flex;
+    justify-content: space-between;
+}
+
+section a img {
+    margin: 10px; 
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+body section section {
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    padding: 14px 16px;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section img {
+    width: 50%;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+   width: 100%;
+}
+
+.product img {
+    justify-content: left !important;
+    width: 50%;
+    margin-right: 10px; 
+}
+.kjøp {
+    display: flex;
+    text-align: right;
+    color :#333;
+    justify-content: flex-end; 
+}
+
+button.product{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
